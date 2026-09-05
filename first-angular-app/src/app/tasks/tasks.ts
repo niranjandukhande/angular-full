@@ -7,5 +7,6 @@ import { Component, Input } from '@angular/core';
   templateUrl: './tasks.html',
 })
 export class Tasks {
-  @Input({ required: true }) name!: string;
+  // @Input({ required: true }) name!: string;
+  @Input() name?: string;
 }
